@@ -1,0 +1,275 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+
+
+
+
+*{
+    /* margin: 0px 400px 0px 400px; */
+
+    /* font-family: "Poppins", sans-serif; */
+    /* padding: 0px; */
+    /* margin: 0px; */
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-container{
+    height: 430px;
+    width: 600px;
+    /* background-color: aqua; */
+    background-image: url(./Image/img\ 1.jpg);
+    /* padding: 100px 400px 0px 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-container .sub-container-one{
+    padding: 5px 0px 5px 0px;
+
+}
+.first-container .sub-container-one h4{
+    font-size: 14px;
+    color: black;
+}
+.first-container .sub-container-two{
+    padding: 0px 0px 0px 0px;
+
+}
+.first-container .sub-container-two h1{
+    font-size: 28px;
+    color: #b49000;
+}
+.first-container .sub-container-three{
+    height: 156px;
+    width: 294px;
+    border: 5px #ffff solid;
+    border-radius: 15px;
+    padding: 0px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(4, 4, 4, 0.5)
+}
+.first-container .sub-container-three h3{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+.first-container .sub-container-three h1{
+    font-size: 45px;
+    color: white;
+    line-height: 1px;
+}
+.first-container .sub-container-three .anchor-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.first-container .sub-container-three .anchor-container a{
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+
+}
+.second-container{
+    height: 300px;
+    width: 540px;
+    /* background-color: aqua; */
+    /* background-image: url(./Image/img\ 1.jpg); */
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.second-container .left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 240px;
+    width: 340px;
+}
+.second-container .left-container h1{
+    font-size: 45px;
+    color: #b49000;
+    font-weight: 700;
+    line-height: 1px;
+}
+.second-container .left-container p{
+    font-size: 14px;
+    color: #333333;
+}
+.second-container .left-container button{
+    padding: 10px 20px;
+    background-color: #1c1c1c;
+}
+.second-container .left-container button a{
+    color: white;
+    text-decoration: none;
+
+}
+.second-container .right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:50px;
+
+}
+.second-container .right-container img{
+    height: 240px;
+    width: 160px;
+}
+
+.third-container{
+    height: 240px;
+    width: 540px;
+    /* background-color: aqua; */
+    /* background-image: url(./Image/img\ 1.jpg); */
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.third-container img{
+    height: 240px;
+    width: 160px;
+}
+
+.fourth-container{
+    height: 300px;
+    width: 540px;
+    /* background-color: aqua; */
+    /* background-image: url(./Image/img\ 1.jpg); */
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.fourth-container .right-container{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 50px; */
+    /* background-color: yellowgreen; */
+    gap:20px;
+}
+.fourth-container .right-container h1{
+    font-size: 36px;
+    /* color: #b49000; */
+    /* font-weight: 700; */
+    /* line-height: 0px; */
+    width: 90%;
+    /* background-color: red; */
+
+}
+.fourth-container .right-container p{
+    font-size: 16px;
+    color: #333333;
+    /* background-color: red; */
+    width: 90%;
+}
+.fourth-container .right-container .button-container{
+    /* background-color: red; */
+    width: 90%;
+
+}
+.fourth-container .right-container button{
+    padding: 10px 20px;
+    background-color: #1c1c1c;
+    /* color: #b49000; */
+    /* background-color: red; */
+}
+.fourth-container .right-container button a{
+    color: white;
+    text-decoration: none;
+    
+}
+.fourth-container .left-container{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    /* padding-left:5px; */
+
+}
+.fourth-container .left-container img{
+    height: 100%;
+    width: 100%;
+    /* display: none; */
+}
+.fifth-container{
+    height: 132px;
+    width: 600px;
+    background-color: #b7adad;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.fifth-container .left-container{
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+.fifth-container .left-container .top-container P{
+    color: #333333;
+    font-size: 12px;
+    line-height: 15px;
+}
+.fifth-container .left-container .bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.fifth-container .left-container .bottom-container img{
+    height: 24px;
+    width: 24px;
+}
+.fifth-container .right-container{
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.fifth-container .right-container  P{
+    color: #333333;
+    font-size: 12px;
+    line-height: 20px;
+}
